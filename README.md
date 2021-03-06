@@ -1,30 +1,9 @@
-# Django-on-Docker
-Get Django on Docker working Locally
-Don't have docker installed? Go through this post.
+[![Django on Docker Image](https://static.codingforentrepreneurs.com/media/cfe-blog/django-on-docker-a-simple-introduction/Django_On_Docker-_Simple_Tutorial__Introduction.jpg)](https://www.codingforentrepreneurs.com/blog/django-on-docker-a-simple-introduction)
 
-1. Verify Docker Install
-Open up terminal (Mac) or PowerShell (Windows)
 
-Copy
-$ docker --version
-Docker version 19.03.2, build 6a30dfc
-2. Build your project's image.
-Navigate to your project
+# Django on Docker
 
-Copy
-$ cd path/to/your/dev/folder/
-$ cd docker_demo
-$ ls
-Dockerfile  Pipfile     README.md   manage.py
-LICENSE     Pipfile.lock    cfehome 
-Run the docker build command
+This repo is for the reference code from [this post](https://www.codingforentrepreneurs.com/blog/django-on-docker-a-simple-introduction).
 
-Copy
-docker build -t demo -f Dockerfile .
-Of course the line demo is custom. Change yours if you want.
 
-3. Run a container
-Copy
-docker run -it -p 8888:8888 demo
-Open http://localhost:8888
-
+Watch the tutorial on [youtube](https://youtu.be/KaSJMDo-aPs).
